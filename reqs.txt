@@ -1,0 +1,11 @@
+# Best to make sure you have torch installed first, in particular before installing xformers.
+# Don't run this if you already have PyTorch installed.
+python -m pip install 'torch==2.1.0'
+# You might need the following before trying to install the packages
+python -m pip install setuptools wheel
+# Then proceed to one of the following
+python -m pip install -U audiocraft  # stable release
+# install the latest madmom directly from GitHub
+pip install git+https://github.com/CPJKU/madmom 
+# install this package
+pip install allin1 
