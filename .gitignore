@@ -1,3 +1,4 @@
-muzic
-NATTEN
+// Purpose: Ignore the following files and directories when pushing to git
 .venv
+assets/input_audio/
+assets/blended_outputs/
